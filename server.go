@@ -8,7 +8,7 @@ import (
     "os/exec"
     "strings"
     "encoding/json"
-    ldap "github.com/vjeantet/ldapserver"
+    ldap "./ldapserver"
 )
 
 type Config struct {
