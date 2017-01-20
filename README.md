@@ -1,5 +1,11 @@
 # ldap-proxy
 
+Note need python 2.7 & golang
+
+must install python library ldap
+
+must include github.com/vjeantet/ldapserver as ldap server
+
 1. Edit conf.json
 2. go run local_ldap.go
 3. run sample file ..... or other you access ldap file
