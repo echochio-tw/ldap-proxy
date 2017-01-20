@@ -7,7 +7,7 @@ must install python library ldap
 must include github.com/vjeantet/ldapserver as ldap server
 
 1. Edit conf.json
-2. go run local_ldap.go
+2. exec --> go run server.go (or build server.go & exec it)
 3. run sample file ..... or other you access ldap file
 
 [root@test ldap-local]# go run local_ldap.go
