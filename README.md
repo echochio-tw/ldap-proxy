@@ -6,22 +6,22 @@ must install python library ldap
 
 must include github.com/vjeantet/ldapserver as ldap server
 
-1. Edit conf.json
+1. Edit conf.json:
 2. exec --> go run server.go (or build server.go & exec it)
 3. run sample file ..... or other you access ldap file
 4. stop server with ctrl-c
 
 [root@test ldap-local]# go run local_ldap.go
 
-[server] 2017/01/20 11:33:48 Listening on 192.168.0.70:10389
+[server] 2017/01/20 11:33:48 Listening on 192.168.0.101:10389
 
-[server] 2017/01/20 11:33:51 Connection client [1] from 192.168.0.48:56056 accepted
+[server] 2017/01/20 11:33:51 Connection client [1] from 192.168.0.66:56056 accepted
 
 [server] 2017/01/20 11:33:51 <<< 1 - BindRequest - hex=&{301802010160130201030404656e6c6980085040737377307264}
 
-2017/01/20 11:33:51 AD server 192.168.0.220
+2017/01/20 11:33:51 AD server 192.168.0.100
 
-2017/01/20 11:33:51 user enli
+2017/01/20 11:33:51 user admin
 
 2017/01/20 11:33:51 pass P@ssw0rd
 
