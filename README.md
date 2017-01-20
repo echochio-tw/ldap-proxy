@@ -65,7 +65,7 @@ must include github.com/vjeantet/ldapserver as ldap server
 
 print authenticate("192.168.0.101","admin","P@ssw0rd")
 
-為你的 主機及 帳號密碼 資訊
+修改 你的 主機及 帳號密碼 資訊
 
 看執行後成果 是否是認證成功  Succesfully authenticated
 
