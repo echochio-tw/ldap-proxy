@@ -4,7 +4,7 @@ Note need python 2.7 & golang
 
 must install python library ldap
 
-must include github.com/vjeantet/ldapserver as ldap server
+copy github.com/vjeantet/ldapserver as ldap server in ldapserver directory
 
 1. Edit conf.json:
 2. exec --> go run server.go (or build server.go & exec it)
